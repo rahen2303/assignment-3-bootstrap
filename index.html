@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <style>
+    @media(max-width:612px) {
+      .main6 {
+        display: none;
+      }
+    }
+
+    @media(min-width:612px) {
+      .main7 {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar bg-black py-0">
+    <div class="d-flex">
+      <img src="https://www.svgrepo.com/download/303198/youtube-icon-logo.svg" alt="image1" class="mx-1" width="40px">
+      <p class="text-white mt-3">YouTube</p>
+    </div>
+    <div class="float-right mt-2">
+      <a href="#">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRasTzg9inOEsA8ov_JSGoZ9SKxJdJMxpFinO7JIMx1GK_TArjl3ACzx_BfEimj4z_wni8&usqp=CAU"
+          alt="image2" class="mx-1" width="40px"></a>
+      <a href="#">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvOJhk9kRNr4wv7Hm67CX-te-B0o0_-OXfAb28NeXCSeoSbPn9RD0XSMyAGGfqg1Uew5s&usqp=CAU"
+          alt="image3" class="mx-1" width="40px"></a>
+      <a href="#">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUxMS8fHx8wMC4gICD///8qKikrKyotLSwjIyMpKSgiIiIeHh4uLi0nJyYmJiYhISEoKCcsLCslJSUAAAAYGBjs7Oz39/egoKDq6uoREREhIR7y8vLIyMgdHRsPDw6qqqrR0dFtbW3g4OCHh4d6enq9vb1jY2J3d3Y+Pj6wsLCYmJcNDQ42NjZKSkpbW1pSUlGNjYwJCQCXUc9VAAAYpklEQVR4nO2dd3ujOBDGKaEjmkjBiUmvTjbJ9/9yJzGgQrNkcG7vdv3H/R5yWU+EYF5pNBoZlmU5pm0DzJjB43AZYoBFkBmWZTcw0g52wVEwpByZ2YEYpDDJl7lgicJjiDkcBmrQAfMIzCfk28IOts9RABLbNv6EFhqOaZqWQREBzNgwvMiMKMiVaxhx1MAyGbIOpE1mY4Kg4CgYUo4EkIHBFi4DNUivvMZgREGuHGIpAsCVQYDIlU3BzIem6XMUDIbjOAFCqEWgBIcg40jGkDEkY0AcenYVzMuWpPthwP0w4EYwFAw2AQIEDPTOt8gjBg8egxy6A2AGDIbNgAAFgc8QcjQdD3atBia5ciJ47iJ47toHjgOeOwrDVnimTXim4SVCJn22SZuadylo3qUWVs6RM1gcgcFgN2jN01eZ2vXt5tH2bTvkIHbD1q7VwGzerOZKwXdMtrAYvrWkhVZnyQqaK6ttmmoLOVJAa5610BZaWEy3UMM7dr40Hvttr//b9A+iLtW27YyB/HkN6G2xwJeSq4KBdDxFSK4yu7ktBNRgCxf+WNmXemO+NLY7l2ojQAJ2KXww6DO7PgHzpUKPGwvUwpxWC3OBWhgdGrUg/15FLdib9R9UC0tfLTKUJI3XTlALVXedgIMeReeuk1H01GJaNBIwCGi/GyWjMtF8d99upxbGUrWIVNQiWqoWxrHUgo2AGl9qdzLB1ULXlzK1aJxG40vtoS+dUQsdX0r6ADUDoQj6MBrpw6i5lwTNTYyamxgw0Jso96E304cWgBoMuF3bjIrGYDTShxH0IRgkiBT6MOd9GMdWkIYhgZOGqdchzglygGN1iDkygrCB5XcIEaAgKBh8AgTI0g7UIEHa2m2Rd+jMe2CwBTUYkH9PrhK4SsA8kgxSJGkHJbUwOsSATi3McbWQfem4WphMLQxQCwNkwligFuBLbdGXqquF9zNq4WmohaWiFqidWySgFlMIGByOjAMxJBwJA+LIGBKOfZZGMTSfSHa5icVqEemrRfS7q4U5VIuD5xZ85H1MtTARmzbr9GHE+nCgFnN9aLE+jLT70ASoqIUrqkUchNR5NyAy4RAQP+0CcgKHwQMQPx1mcEUQ+wwJABFQr02QEJngyBiopQzsOpJdh9t1x+wGgIQbLBgKyW6L/7haIOHNGvOlTC2GLTQ8DqoWe1qorBZ7Wmi0gBYaai2cUQvaQs/zAt8vAH4OcD3P5XAYco6MwSsYEo6EoeDIGKilFg6HyyCYD8BSAN9N4Y8ZJED8CjG7SuNSeOPVPY3KuHTU04SjnmbhuPTv3GJmbrFGH/7I3KKTiUBy1y7HQC289dTCG1MLt68WOciE9weqhfhm/ZxajLfw31YLX1aLfF4tOnc9phbxUC3iMbXgmFOLXFYLjmRMLVoUkkr9AePSP0Et/pd9KKiF67pBURQtHAaHI2BwOTIOBEiKIsndnAARIAD/YUJ+JSM/BBQcC83T727NI2ZJsNvGaVpfCnEau4nTkKvY6PlSq+dLl8RpJF9q9Xwp6QBA40RJx7e+1JR8qUqcRlEtfloPldUiUVKLGNSCIhTUImyuOrUImUw4McgEA9WHFgkAESAAqEWHjIEabOEw0Qi5WuRhc9WpRcjVAuwmDILdgqM1iPTmFmxcuurcQh6X/p1b/BlqoRJN7KtFkgDAXSfgpxkCBpejcdA9NF/TAxKvsqKHorWraD4ZN49GzKMEAVhUf49aRDaP6ncyoagWphdkZbWryN/hR7JamOBL26i+He1TiwOi+lrr+Lpq4edogzEuP28fHh7uH+6fn17I5XaT+dNqcYR1fLq6ZqepFVuOndoxwIutvEFM4VqxB4gJHABdT2sRMhQc0Q7jz/vXm4sT+XN3df1AGlq5NBeDGSRwwS4FXVajALsOs2ulqR2AXbq6ljagBptVPbux2wLRXIzYSoj+aq3699ctqC9tVqpa5PDiuxXGv85vTiY/l1df7xj7PU9jgaexwMUwtAMhMSdqz3pZJGRXTGcMjaiFYk5Uvi2fHi+nm9d+Ls4/qk03ix3NGPpN1aKqP173N699Yt8QLn9ELRBCLRwGhyMYQ8bgJgxJhJ/vFJsHn8dPnEp258y7HLLdDH6IAKAWCNQCjamFKamFqa4WO3x/qtU++rl5Iv0oqoUpqYX5k2qxJ+urxM/67Wva+IHzo2Z9EXcNmXs2vLVwlduQQUeuXAaaq+eMZ+7F1afe8yl+HuMtkQnbpi0EkFtK1IIZNJldh6Xsxala5t4iteA5UTv8ONeES/I5m/uFe2wrq0UztzAVI1ErqYWFb8f/8NOr6/snn4xk6rom/325/Xq9Gfe0dy+bo6rFkixoMw42Yx148Xqb4mqDgtZ5k5tfOGiL8fv91Vh/fn1bGlnQ84ovRhMz8gmCYAmqj6GHIXqOq6igv5PBr2bdv0j8bV09PQ4beVXah5gfmJBhjN2PyegqcdfRIGOoeh78rY+/6rpsuqOADmiRQMdnZlRutw+DYd3px8ZwYW4ZM+zZjbD3uVusFtb3de/vPDuPtg7LEZ6IRBGDCL8MHu7b7Q+phdeohT1QC0tSC3pV1Fe9P/IN41DK8w6tsTxvihK/99v4hU1mNwcsVQtbIzJnDnxpXPcetddyOxGniSFAE0txGg9/9L7gvB5Ri54vNXRWBJftt/C2ssrffeBIc79FiR/kJl7X6vstjq4WViU38JyMMLtIVM4QM7Vo9syY/SzoypIf9Ovv1dTCXKgWCZaesMuPuv1/AXfXgcK3IXzfe5MP/JuCMYMjajGzFiephfUt3furHehDanYyMaMWUn5pZOIPaaBzvxXUIgK1iBaoxaH7D2tJJq5rc8H+wyyTnvcnf8X9hwrz5WEfkn+QbSQP8VV3nTfXh1m/DyPoQ9JQWXVegok+pDAinbiEQQNWpK9a+GmKAI22ABAgSdMwbpDGRJpexL/oGadEUmMaKCPIIV7WxOnorzIEHGmHlEpbmJr4Vfi+C0wsFWlKNC1GLWhE0IoTuzEfwFUTGGQQ44MQrnPig9XCKsWx6G0Fz/TcukU8rhYsElV8i018rGfUQk8PR+aHxv75oVWLg5HnrRBNnFy3mFILFon6Fr/zYSOphaWnFmI0kTh98KwSEskXJ5n8wyTYiqPt+7r7f0FC/t8U+paaf5F0jp38MMPiu+ij3h/DkIxd9Sxx0RDVQsPT1MLc5xpDxyt4mim1aBHVgke9wv+mWoghi5vv9XarB5Zw5243K6iFeZhaBJ/87zjd0Ht5aB9Gch/G6Bf/5sttPKsWlrJapFQmwgYxqAVFwZEwhAAsPEwfZUrTG6mExLHL4TLEHEEHqg9pBkg4ihS/8a8+x6kfg1q05q0GjVoAHAKa1wjIOVzAjFqYM2pRC27mDbN1i4Vq0e7lFu9eEa2hFraUm7JnfkinTSjCXAovMJiAFho5DZs3MOncooFFA9a5MZgfmtBCsGuDXaIP5gdv4SuW5ofmaAvlVd0OPAfIoIlFeZ63QDSVKIeMohEUFKUwE/gMaUJTngcAh8NhcDkCgGCwgO8uuKXynH99HsIPEUEG5lsEHKPmAwYVT5NLnsapToWbnDVyHQmexu57GlvwNLBglYHBLBp4GjpaEB6R13KFcam2WtgP/B5H0RFqm1RCdNmPVptbGBN9GMt9SCC4gjccSX0YQR82KKIW0IfRbB9GYh+akgWxDw3WhxrZ951apKpq4XBPcLb1Oq8NsGBuAWvxlgU5ADC3sKxOJgDWhFpQoCdm4rSKO7UgSPtqYRGZoJG5Ri3AIAVVi+YqdabrYkyqxZbPAM430ir3OmpBH22hE5+CH1eLio+rSi4T66kFbWHJBfdxu1ctuhYqqYXXem0qGl7uIXaFvFYtfO4GHvHAayuoRc4xUAsPgTAUmIdttjQ1tvB01MKV7OqqhTDm/kUnZ0dQCzK33PAQ0G01phaypxlXi/AgtYj43b34jo9WCSvn7uwR/0AkSujDks8qiJ85Wh8afKJ4iZf2IX0fPHgRPHgPB4D30KPvw5YPqT4i8iJ48Fp4/EXwc/E99Alyn7+HYKk12L2H3DyzVPEpxmfavIedJcEgvIe+9B76w/fQ1thhY9oli3KfYtO2lvhSSS1kX+qbJY/kvZWKKzNTvlSrheaGacUrto/YQpMPTq92C1uo9ZSa/DV8LvsPzZpPabFjPvsSL3xKtTyNzydO77FxRE9jbLil0vpBtdhe8ztrHbVuYsBfxKfgB9WCO5qrnXHUPowxa+EXmuzD2fmhqBaDQdTUHB+zjN/rcs8ke26OPzVqEw1yRXzdicM1xTn+QWpBhr78xt5vzYVq0R95I8mXhlsW/77Cs76UdryiWuyfPUUOfznSQY7werMnuiSzYbO0O7xs9qQzA474cPGlgPDlMWbAFP6GjWpO8bIZsE4Uw+FTpxKNeJqVohiN3d1DZ+psYy2KYuioRcZnpjs0yKBdt8puxUMZ6OfUArH7eonH+nBNtaj4CkZgLYom6kSES97CSnDe60aEWxS8D4twUURYJ05Ts6HU5TZbWy3kkXfo8haa0aKovo5a8DxL2sLjqoXQwihaQy2UVtd4DOxsk8FaW7usttrqGlOLTPDb5qLVNQVPw1ZIA261RiyR1lhxhdRgGbQ8ts/V4rAVUh21cPiTEx5bLXbCO798lVs1U8ETxjT+Kn1oTvYhZhGhi2pZpoJOtgnashY+R2OZKMuyTaT/V7FJ/g0ezzYZYjzbRCtjCLMwDY0Psd0I0v7DwzOGJLXgU9FHvCxjSCvriy+ZPNZHVotvFno+Xzy30Mjc40lLZErTZdDZHAsy9yhorh4CpBv2QjxUyzL3dNTC4FOaMxof4p4mU/M009mXfU8jrCF+eD+4yi3Y/XSPqhZCcB2vsG6hnAXt5czu2+aoasF3Odx9L8xr00sX56HozodPZZRrZLKPICnZrXytFmay6+1G2PLlw120tloIO52FfIzn7cLdCHo5woiHom+rI57gISzEWv7CHSV6u4Lid2b5EQ/mhyp6OL4yk8rzw4gPLe7qpbuCNHd2CWkSG2/sBI8OKju7mN3mBA9hHzDiAaG33dKdXZq783Z86fJrM3GChymqxfTuvBm1EPaLvZRLd+eNvbUzGbSRx2zf1cdSC2FZ5g5HS3dYarryTMzmsXV2q2bqlmqelfRWLt4lq7t3TfCmN/VYbZPlamFxMTx5txbvdNbdrW7x1ZmTX87qakFfXmHEdlWuu1tdqeKAsKHrpp4+s2u4/3DvmV2tWsSueA+XVxzQrhqRCBuenqqD1SKW1CIW1ELYAHVXm8v3Aevv5S75zpYLnKyuFqWQ6P3gm+ud96RevUVIyTp5q/mjfUBlyLFaX4KzPv1eo3rLARV4xF1dL0iqwLMHGQP97mys9E71xb/8ebNGBZ4DqiiVMf8jiCKvWnNPSIYi371KFaVDaptgYX/sNV5TLaQNJb/K1WubqNaniUpxA9ZuUM1MVgtrRPGtCbUQN5Je4XWqmR1UkU7cMEDGxmMV6Qq7RRpyZAx2C7kinbhZ5SQK1qlId1hVQXEv5OUuWqkG7e5JaODDbuXTAfUqQ0aR8JwSb7OKWlSCDJFnNFqpMuSB1T1L8Tm9wWiF6p7li3DXzmx/reqeB6hFA9GfkiYuVwupgSdPaLWae4dW2RUnirSJ5cIqu7sPsYFv2PjREzxGKyWXlVjL4iKqeB8eUCkZi07m5BGnxmqVkg+vdo1Ex3By9rk7vNp1ir/E77qr8xWrXS+oWL6R7vvJPY4OVItSLmd3gbw1K5ZbC6rO9+rQXeFSUy0guItf5EK119has+r8otL9WC5kdnaLM+2TAzb4/KT3ecTOopMDJCys0Lp9kP+2KwfrqUWJf/UrDTdNtI3VTn9YWJO97hdMPN9ulNXC8sr3fjG07oG3fpsqu/izVx7w7G1blkp9GJbDknTd56Yrarb8FJbFJ+ls3geP2bVR+8Wek3ScDf4c7z/4kOnvSifpKKnF7GlIOR7+pTfPGFepqBbSaUjlDhtfw/dP+p67XbbOaUgqs6c9J3iYvWpk8LA+Pmf1FtmRKekhmZtstvjla6TY9+WnNNY9ufCcVU60WuVUMvwx4hBJN7zev+wwLrebsirLdLutycWvr8fRcsOPVZnKwnH6jtY4lWydk+X8oaixrrh5vf76uieft+vHm6laykRKydeE8ujtMi9XGJeudIJHhN9nqszv/bziCtYt5Af+7AX96NxiviZ7WR9Y7Lopdx11Jzz2CkV+blaYW6x2SmeJ71XrzUvt+4Uj4dy13mD3s156SudyteBn50XV9n7U5cy1j5ZkN8Wz8/Av6Rd+lf++WggrMxb6fprT8f7n9aN2Buc99Zp4u112Wu7qJx6XOHxTq85+RYYFwdgZlttP6fceqnzJicdLx6XM0/BIlLXF72OSLn4uHx9KjKyJnKidFJUic+sl41J9tVA5eTza1ejp/Grc8Vw8vn2WuIpmTh6v3qV/+lUvn1usf3q85WwxTp/uiczf3Z1eXl5e3N1dvZ4/fGBco9zac3p8aUhNfPvu7OqfHu84TpAkyRwCBocj40AMCUfSILPLald/Y/jUdV1FfuBk8CvZnCV7K3nla5ztMZ+IdgUTLKo/tY7TrQGbPKrfq8nebVpSi+rbXZyGZwwxSCd4lDvJX71iyzgkqq9Wk/3fOS23lEtpP9b7VmbavVpDtbCClKqF5aRh6nWIc4IcQCYxLWKOzKJem8LyO4QI0CyrMdBVLgTI0g7UIEHa2m2Rd2gMZpXkkK8wkaeUrq6R/5eA+QTMI8kgRZJ2WDK3MCfUQinmbSqcWh3Jc+srOv34n50OGMmh4put9zupxUQfxiwSNasWbU12W6rme3K38Q5TC5rnMYagD4cjGyCRrjIGBEikKwHzBnuRjdKfMZ9wcIO/r1rAFjYyYZQjG6GrmV1xQNaXNXHeE1OLsR0lejnC0gkeYtFWMqB9Dw44wcOEDLrBW+v1W9huWhk776lL2WtaKGXu0WyI2cw9cBpyCz3eQqeSgjdnLzQFHbEEPt0TPNj9KIa+1BRG3tR7ptyJavrS5rY0YCNvc+hLiy6qL0c2brCeL110gsfR9lv0TvCQm/iS996sY5/3NJ5BO6YWezJoZ04H3IjBm9tggVoM3PWkaAxlQgZXi2QMPbXYa1coInHyZM6bP0gt4jm1OCy/dEwt4hG1aM972rHIxtk2OkwttE/wOO5udbN/gse2S4x4QCpqYQ+yvuZ3lMwq/np96PHd6tHgzK7spZlNPWw15oe0D7V+24ZJZXuIrHyWrGquvph9KVb+2H+WbIk/Hp5wPZ59OdUrxzhLdvF+i+nznnLkJOaS8560+3Cww9IcVwtzYs+MXh8q75kxpQzaPY5/1NX3HH/AsM/xZwzjErPHruKERIahNdcaOx3wSHUxOIYVWvX2rvXnFr+tWvB1C6Xd6oO5hZYeUsDcgqJpIUwxZltIJxWwOSyDyUzGm6bSQja1mWzh6GzB0JqJpBwBQzu3sNt9wHHfl8Yt7G5uYcPcokPCIRvkdunMC+JDHdRnfP+NucUBO51XUovBDkuT7bcAtTBhv8VALQ5SfOX9Fj21SEbddSJFdZJZtRB9eNIhYHA67J+QJIkUVEpGDSaI/019g6upRbSWWkxXwtqvFooR0IN86b+jFvt96XRtE/Wa7BzZvtqXbR8eUvtyXx9GWrUvQ51VjpCjXV0JYDkHELscLoPHQXcyAbpVndZui6KDaB7Bcg4Cg8Q83aSlvpq0p6pgb6VqVi2gbmJfLUAfeN3EPbvzWl8KamGudzqg6mqjqlqYJlSG1FGLXh3hcbWwNNSimx9qrRgj6WoIjaXxKbuj5od21Vfm/6rFn6EWv10f6lUz08qg8gkQIAMI+cUepIq1cBk8DiHPl6eKIS3zCU9RU8tU69dkn8+Cs5XUol9lV0Et7J5ayL50nfOelDIZx1sY67Rw4gSP2RYq1okazxg1tLJRC36VDdJu2yzYFg6DkHYrJ8NmA0vtlWwpkZCxzSGKWb+rjksPrud9hHHpoec9/U/V4j/Zh+LcQlMtkrXVQtt8GOvsgpmYW/xevvSvWuxVC/WdbrLXnlQL2WvvUws9uwnfSqi2o1BzXKrgaWbHpfs9zfrj0r9qIauFOd6HunMLhRM81uvDfTu/XXHnN4Kror/jXNzw7ko73R1pj/lgq7nbHN3hukjcY+62BhHb4k5/OGlwzw773gkeB8RpbIjT2BCnsSFOI/hSA07wMMCJtlgSp2l9qWqVBK0atP8ptbBEtVCuouFzZKxcSAdQi7CtGuIy5CFXi1is3pGRr/GhQEiLOfMgEx3Uq5X8b8elrOLMX7XYoxbLIlGHqoXWfjsj0akqJdS2EqpZOTNVtAbVrJxBGauEA3VXUvmsgUGt6l2rqYW5Xy3MddSCR/VVKrBpZX39/I6SNWqb/ANd6MQWFK+5pAAAAABJRU5ErkJggg=="
+          alt="image4" class="mx-1" width="35px"></a>
+      <a href="#">
+        <img src="https://as1.ftcdn.net/v2/jpg/02/09/95/42/1000_F_209954204_mHCvAQBIXP7C2zRl5Fbs6MEWOEkaX3cA.jpg"
+          alt="image5" class="mx-1" width="35px"></a>
+    </div>
+  </nav>
+  <div class="container-fluid d-flex mt-3">
+    <div class="main6 border border-start-0 border-top-0 border-bottom-0 col-md-2">
+      <ul>
+        <li class="list-unstyled">
+          <a href="#" class="text-black text-decoration-none">Home</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="list-unstyled">
+          <a href="#" class="text-black text-decoration-none">Explore</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="list-unstyled">
+          <a href="#" class="text-black text-decoration-none">Subscription</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="list-unstyled">
+          <a href="#" class="text-black text-decoration-none">History</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="list-unstyled">
+          <a href="#" class="text-black text-decoration-none">Cost Videos</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="list-unstyled">
+          <a href="#" class="text-black text-decoration-none">Playlist</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="list-unstyled">
+          <a href="#" class="text-black text-decoration-none">Messages</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="dropdown list-unstyled">
+          <a href="#" class="dropdown-toggle text-black text-decoration-none" data-bs-toggle="dropdown">Show
+            More</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Your Video</a>
+            <a href="#" class="dropdown-item">Downloads</a>
+            <a href="#" class="dropdown-item">Your Movies</a>
+            <a href="#" class="dropdown-item">Watch later</a>
+            <a href="#" class="dropdown-item">Liked Video</a>
+            <a href="#" class="dropdown-item">Your Channel</a>
+            <a href="#" class="dropdown-item">Add account</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="container-fluid col-md-10 d-flex flex-wrap">
+      <div class="main1 pe-2">
+        <video width="445" controls>
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQKznIHKSuwy62d41luKwQ5dITxFMgSu6Pd_Q"
+            type="video/mp4">
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQKznIHKSuwy62d41luKwQ5dITxFMgSu6Pd_Q"
+            type="video/ogg">
+          Your browser does not support HTML video.
+        </video>
+
+        <div class="part1 d-flex">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqBZq_CDeSklV0lasQJw_1CKUwZ95CtgMQGenIj2IjYhh7Bz4uQZGpDNjtE8aDSXZwGY&usqp=CAU"
+            alt="image6" width="28px" class="m-2">
+          <p class="my-2">Taarak Mehta Ka Ooltah Chashmah- Episode-180</p>
+          <div class="ThreeDot mx-4 my-1">
+            <a href="#"><img src="https://www.svgrepo.com/download/506247/menu-vertical.svg" alt="threedot1"
+                width="25px" height="20px"></a>
+          </div>
+        </div>
+      </div>
+      <div class="main2 pe-2">
+        <video width="445" controls>
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQU-m112BQY49IZ7stn5HEGgAapg567yylMKA"
+            type="video/mp4">
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQU-m112BQY49IZ7stn5HEGgAapg567yylMKA"
+            type="video/ogg">
+          Your browser does not support HTML video.
+        </video>
+        <div class="part1 d-flex">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqBZq_CDeSklV0lasQJw_1CKUwZ95CtgMQGenIj2IjYhh7Bz4uQZGpDNjtE8aDSXZwGY&usqp=CAU"
+            alt="image7" width="28px" class="m-2">
+          <p class="my-2">Taarak Mehta Ka Ooltah Chashmah- Episode-181</p>
+          <div class="ThreeDot2 mx-4 my-1">
+            <a href="#"><img src="https://www.svgrepo.com/download/506247/menu-vertical.svg" alt="threedot2"
+                width="25px" height="20px"></a>
+          </div>
+        </div>
+      </div>
+      <div class="main3 pe-2">
+        <video width="445" controls>
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSEDH4aCWPNI-p5iFXe71O9uFyuAEekgvP0jQ"
+            type="video/mp4">
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSEDH4aCWPNI-p5iFXe71O9uFyuAEekgvP0jQ"
+            type="video/ogg">
+          Your browser does not support HTML video.
+        </video>
+        <div class="part1 d-flex">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqBZq_CDeSklV0lasQJw_1CKUwZ95CtgMQGenIj2IjYhh7Bz4uQZGpDNjtE8aDSXZwGY&usqp=CAU"
+            alt="image8" width="28px" class="m-2">
+          <p class="my-2">Taarak Mehta Ka Ooltah Chashmah- Episode-182</p>
+          <div class="ThreeDot3 mx-4 my-1">
+            <a href="#"><img src="https://www.svgrepo.com/download/506247/menu-vertical.svg" alt="threedot3"
+                width="25px" height="20px"></a>
+          </div>
+        </div>
+      </div>
+      <div class="main4 pe-2">
+        <video width="445" controls>
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRngcMDdthel3iy5nexZE0Q5c6hskG2-2wQlQ"
+            type="video/mp4">
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRngcMDdthel3iy5nexZE0Q5c6hskG2-2wQlQ"
+            type="video/ogg">
+          Your browser does not support HTML video.
+        </video>
+        <div class="part1 d-flex">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqBZq_CDeSklV0lasQJw_1CKUwZ95CtgMQGenIj2IjYhh7Bz4uQZGpDNjtE8aDSXZwGY&usqp=CAU"
+            alt="image9" width="28px" class="m-2">
+          <p class="my-2">Taarak Mehta Ka Ooltah Chashmah- Episode-183</p>
+          <div class="ThreeDot4 mx-4 my-1">
+            <a href="#"><img src="https://www.svgrepo.com/download/506247/menu-vertical.svg" alt="threedot4"
+                width="25px" height="20px"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main5 pe-2">
+        <video width="445" controls>
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSSIaXLCgYw_8nAJVYjAI_rKag3u1WDmZ8IIg"
+            type="video/mp4">
+          <source src="https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSSIaXLCgYw_8nAJVYjAI_rKag3u1WDmZ8IIg"
+            type="video/ogg">
+          Your browser does not support HTML video.
+        </video>
+        <div class="part1 d-flex">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZqBZq_CDeSklV0lasQJw_1CKUwZ95CtgMQGenIj2IjYhh7Bz4uQZGpDNjtE8aDSXZwGY&usqp=CAU"
+            alt="image10" width="28px" class="m-2">
+          <p class="my-2">Taarak Mehta Ka Ooltah Chashmah- Episode-184</p>
+          <div class="ThreeDot5 mx-4 my-1">
+            <a href="#"><img src="https://www.svgrepo.com/download/506247/menu-vertical.svg" alt="threedot5"
+                width="25px" height="20px"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="main7 sticky-bottom">
+    <nav class="navbar bg-black py-0">
+      <div class="d-block mx-0 text-center">
+        <a href="#">
+          <img src="https://icon-library.com/images/icon-for-house/icon-for-house-18.jpg" alt="image11" class="mx-1"
+            width="30px" height="40px"></a>
+        <p class="text-white my-0">Home</p>
+      </div>
+      <div class="d-block mx-0 text-center">
+        <a href="#">
+          <img
+            src="https://e0.pxfuel.com/wallpapers/1017/195/desktop-wallpaper-youtube-shorts-white-logo-white-neon-lights-creative-black-abstract-background-youtube-shorts-logo-social-network-youtube-shorts.jpg"
+            alt="image12" class="mx-1" width="65px" height="40px"></a>
+        <p class="text-white my-0">shorts</p>
+      </div>
+      <div class="d-block mx-0">
+        <a href="#"><img
+            src="https://static.vecteezy.com/system/resources/thumbnails/000/582/114/small/icon0-vector-614-01.jpg"
+            alt="image13" class="mx-1" width="60px" height="60px"></a>
+      </div>
+      <div class="d-block mx-0 text-center">
+        <a href="#"> <img
+            src="https://previews.123rf.com/images/asmati/asmati1601/asmati160100960/50199716-ringing-bell-icon-white-on-the-black.jpg"
+            alt="image14" class="mx-1" width="40px" height="40px"></a>
+        <p class="text-white my-0">Subscription</p>
+      </div>
+      <div class="d-block mx-0 text-center">
+        <a href="#"> <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb5z_iX6_xuO9patRWFBaEuLzVKfc_sbsNaT7C3R-Rw8MFj_ujB78O7Bg2-3_EmfNP2QU&usqp=CAU"
+            alt="image15" class="mx-1" width="55px" height="40px"></a>
+        <p class="text-white my-0">Library</p>
+      </div>
+    </nav>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
